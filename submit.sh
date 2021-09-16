@@ -5,4 +5,4 @@ PYSPARK_PYTHON=python spark-submit \
     LogStream.py "$1" "$2"
 #args:
 #argv[1], "/tmp/checkpoint-write", checkpoint location
-#argv[2], "/var/log/my_server/instance5.log.*", path to the input directory
+#argv[2], "/var/log/my_server/instance5.log.*", input path
